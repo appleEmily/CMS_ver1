@@ -15,7 +15,9 @@
 		A1B84D3C23CF184800EB7910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B84D3A23CF184800EB7910 /* LaunchScreen.storyboard */; };
 		A1B84D4723CF184800EB7910 /* CMS_ver1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B84D4623CF184800EB7910 /* CMS_ver1Tests.swift */; };
 		A1B84D5223CF184800EB7910 /* CMS_ver1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B84D5123CF184800EB7910 /* CMS_ver1UITests.swift */; };
-		A1B84D6023D093B600EB7910 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B84D5F23D093B600EB7910 /* MainViewController.swift */; };
+		A1B84D6423D0B37D00EB7910 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B84D6323D0B37D00EB7910 /* mainViewController.swift */; };
+		A1B84D6623D0B40900EB7910 /* countCowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B84D6523D0B40900EB7910 /* countCowViewController.swift */; };
+		A1B84D6823D0BA7D00EB7910 /* setCowNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B84D6723D0BA7D00EB7910 /* setCowNumberViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +52,9 @@
 		A1B84D4D23CF184800EB7910 /* CMS_ver1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMS_ver1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B84D5123CF184800EB7910 /* CMS_ver1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMS_ver1UITests.swift; sourceTree = "<group>"; };
 		A1B84D5323CF184800EB7910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1B84D5F23D093B600EB7910 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A1B84D6323D0B37D00EB7910 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		A1B84D6523D0B40900EB7910 /* countCowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countCowViewController.swift; sourceTree = "<group>"; };
+		A1B84D6723D0BA7D00EB7910 /* setCowNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setCowNumberViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +112,9 @@
 				A1B84D3823CF184800EB7910 /* Assets.xcassets */,
 				A1B84D3A23CF184800EB7910 /* LaunchScreen.storyboard */,
 				A1B84D3D23CF184800EB7910 /* Info.plist */,
-				A1B84D5F23D093B600EB7910 /* MainViewController.swift */,
+				A1B84D6323D0B37D00EB7910 /* mainViewController.swift */,
+				A1B84D6523D0B40900EB7910 /* countCowViewController.swift */,
+				A1B84D6723D0BA7D00EB7910 /* setCowNumberViewController.swift */,
 			);
 			path = CMS_ver1;
 			sourceTree = "<group>";
@@ -265,7 +271,9 @@
 				A1B84D3423CF183E00EB7910 /* ViewController.swift in Sources */,
 				A1B84D3023CF183E00EB7910 /* AppDelegate.swift in Sources */,
 				A1B84D3223CF183E00EB7910 /* SceneDelegate.swift in Sources */,
-				A1B84D6023D093B600EB7910 /* MainViewController.swift in Sources */,
+				A1B84D6423D0B37D00EB7910 /* mainViewController.swift in Sources */,
+				A1B84D6823D0BA7D00EB7910 /* setCowNumberViewController.swift in Sources */,
+				A1B84D6623D0B40900EB7910 /* countCowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
